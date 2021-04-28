@@ -1,0 +1,145 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+}
+.top {
+    background-color: black;
+    padding: 10px;
+    border-bottom: solid red 1px;
+
+}
+h3 {
+    color: red;
+    align-content: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0;
+    border-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: start;
+
+}
+h1 {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav-list {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #333333;
+    color: #c2c2c2;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    border: 50px 50px 50px 50px;
+}
+#title {
+    font-size: 35px;
+    font-family: sans-serif; 
+    border-bottom: solid rgb(0, 119, 255) 3px;
+    padding: 10px;
+    font-weight: bolder;
+    margin: 10px;
+    padding-left: 0px;
+}
+#label {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.active {
+  padding-top: 10px;
+  font-family: sans-serif;
+  font-weight: normal;
+  text-align: left;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.library {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    padding: 5px;
+    margin-top: 50px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 1000px;
+    height: 400px;
+  }
+  .campaigns {
+    padding: 10;
+    border: solid rgb(197, 197, 197) 1px;
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+  #icebreaker {
+    grid-column: 1;
+  }
+  #scales {
+    grid-column: 2;
+  }
+  #aberration {
+    grid-column: 3;
+  }
+  .start {
+      color:rgb(165, 162, 162);
+      font-weight: bold;
+      font-size: 13px;
+      font-family: Helvetica;
+  }
+  .number {
+      margin: 0px;
+      padding: 0px;
+      font-size: 30px;
+      border: 0px;
+  }
+  .players {
+    font-size: 15px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 0px;
+  }
+  .roles {
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0;
+}
+.content-sharing {
+    border: solid rgb(0, 140, 255) 1px;
+    font-size: 10px;
+    color: rgb(0, 140, 255);
+    padding: 15px;
+    font-weight: bolder;
+    margin: 20px;
+}
+.view {
+    font-size: 13px;
+    color: rgb(0, 140, 255);
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
